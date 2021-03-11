@@ -1,0 +1,11 @@
+---
+application:
+  name: "simple-torrent"
+  project: "p2"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-simple-torrent"
+  routes:
+  - application_name: "simple-torrent"
+    paths:
+    - "/*"
